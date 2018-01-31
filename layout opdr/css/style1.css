@@ -1,0 +1,270 @@
+*{
+  font-family: sans-serif;
+  margin: 0px auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+a {
+  margin: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: gray;
+
+}
+a:hover{
+
+}
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover:not(.active) {
+    color: #111;
+
+}
+.active{
+  background-color: #ff4d4d;
+  border-radius: 3px;
+  margin: 5px;
+}
+body{
+  background-image: url(cssimg/22.jpg);
+  background-size: cover;
+  background-position: center;
+}
+div.container {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 0px solid gray;
+    margin: 50px auto;
+    padding-bottom: 0px;
+    text-align: left;
+
+}
+.footer {
+    margin-top: 700px;
+    background-color: gray;
+    padding-bottom: : 100px;
+    text-align: center;
+
+
+}
+#img1{
+  width: 200px;
+  height: auto;
+  padding-bottom: : 100px;
+  background-color: gray;
+  margin-right: -200px;
+
+}
+h4{
+  float: bottom;
+}
+.img2 {
+  width: 400px;
+  height: 250px;
+  margin: 5px;
+}
+h1{
+  margin: 2px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+h2{
+  margin: 2px;
+}
+p {
+  margin: 2px;
+}
+
+
+@import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: inherit;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+
+  text-align: left;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  image-resolution: from-image;
+  width: 25%;
+  margin-left: 150px;
+
+}
+
+.flex-item {
+
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  margin: 10px;
+}
+.flex-container2 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: inherit;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  image-resolution: from-image;
+  float: right;
+  width: 25%;
+  margin-top: -400px;
+  margin-right: 400px;
+}
+.flex-container3 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: inherit;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  image-resolution: from-image;
+  float: left;
+  width: 25%;
+  margin-top: 0px;
+  margin-left: 150px;
+}
+.img5{
+  width: 200px;
+  height: 200px;
+}
+.flex-container4 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: inherit;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  float: right;
+  width: 25%;
+  margin-top: -400px;
+  margin-right: -780px;
+}
+.flex-container5 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: inherit;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  float: right;
+  width: 25%;
+  margin-top: -200px;
+  margin-right: -780px;
+}
+.flex-container6 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: inherit;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  float: right;
+  width: 25%;
+  margin-top: -0px;
+  margin-right: -780px;
+}
+.flex-container7 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: inherit;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  image-resolution: from-image;
+  float: right;
+  width: 25%;
+  margin-top: 0px;
+  margin-right: 400px;
+}
+#main {
+  width: 1500px;
+}
+#d{
+  text-decoration: none;
+  background-color: white;
+  text-align: center;
+  margin-left: 520px;
+  margin-top: 100px;
+}
+#a:hover {
+    color: gray;
+    background-color: white;
+
+}
+#b:hover {
+    color: gray;
+    background-color: white;
+
+}
+#c:hover {
+    color: gray;
+    background-color: white;
+
+}
+#e:hover {
+    color: gray;
+    background-color: white;
+
+}
+a.green {
+  border-color: white;
+}
